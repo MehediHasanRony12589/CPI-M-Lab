@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODERN LAB</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+       
+      
+      
+    
+</head>
+<style>
+    .button {
+  border-radius: 8px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<body>
+   
+
+    <div class="container">
+        <div class="slider">
+        <div class="slides" style="--img: url('https://s.alicdn.com/@sc04/kf/H33339901eb8e4fcfa82aae9137e74d0eU.jpg_720x720q50.jpg')">
+            <div class="content">
+                <h2 style="color: #f4511e;">High precision CNC milling machine</h2>
+                <p style="color:lightblue;">2022 Hot sale XH7126 small milling high precision CNC milling machine for metal processing</p>
+                <button class="button"  onclick="window.location.href='thardpage.html'"><span>Watch </span></button>
+            </div>
+
+            </div>
+            <div class="slides" style="--img: url('https://image.made-in-china.com/226f3j00TazoPHyFHGkn/Hualong-Hknc-650j-Multifunctional-5-Axis-CNC-Bridge-Stone-Slab-Sawjet-Cutting-Machine-for-Granite-Marble-in-America-India-Kenya.webp')">
+                <div class="content">
+                    <h2 style="color: #f4511e;">5 Axis Stone CNC Sawjet HKNC-450J </h2>
+                    <p style="color:yellow">Cutting Machine High Efficiency Esa System Saw Jet in Stone Machinery for Quartz, Granite, Marble and Dekton</p>
+                    <button class="button"  onclick="window.location.href='newpage.html'"><span>Watch </span></button>
+                </div>
+                    
+                </div>
+                <div class="slides" style="--img: url('https://s.alicdn.com/@sc04/kf/Hcca7ef7a748b48b1987b3026b9b63f2dG.jpg_720x720q50.jpg')">
+                    <div class="content">
+                        <h2 style="color: #f4511e;">CNC Vertical Machining Center</h2>
+                        <p style="color:lightblue;">VMC400 5 Axis Sided Metal Milling Ultrasonic 5-Axis Machine Tool Equipment CNC Vertical Machining Center</p>
+                        <button class="button"  onclick="window.location.href='secondPage.html'"><span>Watch </span></button>
+                    </div>
+                        
+                    </div>
+                    <div class="slides" style="--img: url('https://s.alicdn.com/@sc04/kf/H3a4e066021124883a4f44b1b67de2e6ew.jpg_720x720q50.jpg')">
+                        <div class="content">
+                            <h2 style="color: #f4511e;">High speed small cnc machining</h2>
+                            <p style="color:yellow">SMC640 High speed small cnc machining center VMC640 3 5 axis cnc machine center Siemens/HNC/GSK/FANU Control VMC 640</p>
+                            <button class="button"  onclick="window.location.href='fourpage.html'"><span>Watch </span></button>
+                        </div>
+                            
+                        </div>
+                        <div class="slides" style="--img: url('https://s.alicdn.com/@sc04/kf/Hb2097403ff794b9ebbe8615717e26e5dC.jpg_720x720q50.jpg')">
+                            <div class="content">
+                                <h2 style="color: #f4511e;" >Integrated Circuit Making SMD</h2>
+                                <p style="color:lightblue;">Integrated Circuit Making SMD Machine SMT550 Electronic Components Pick and Place Machine with 4heads and 50feeders</p>
+                                <button class="button"  onclick="window.location.href='fivepage.html'"><span>Watch </span></button>
+                            </div>
+                                
+                            </div>
+                            <div class="slides" style="--img: url('https://s.alicdn.com/@sc04/kf/H7c9456092dc04b029e3629104508ce40j.png_720x720q50.jpg')">
+                                <div class="content">
+                                    <h2 style="color: #f4511e;">Automatic Small Pcb</h2>
+                                    <p style="color:lightblue;">Low Cost High Quality Automatic Small Pcb Making Smt Machine</p>
+                                    <button class="button"  onclick="window.location.href='sixpage.html'"><span>Watch </span></button>
+                                </div>
+                                    
+                                </div>
+                                                            
+
+       </div>
+
+       
+
+        
+       <!--button working -->
+        <div class="buttons">
+            <span class="prev"></span>
+            <span class="next"></span>
+        </div>
+    </div>
+    
+
+    
+  <script>
+    let next = document.querySelector('.next');
+    let prev = document.querySelector('.prev');
+    let slider = document.querySelector('.slider');
+
+    next.addEventListener('click',function(){
+        let slides =document.querySelectorAll('.slides');
+        slider.appendChild(slides[0]);
+    })
+    prev.addEventListener('click',function(){
+        let slides =document.querySelectorAll('.slides');
+        slider.prepend(slides[slides.length -1]);
+    })
+
+  </script>  
+</body>
+</html>

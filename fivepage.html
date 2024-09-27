@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch the video</title>
+    <link rel="stylesheet" href="css/newpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+    .responsive-video {
+        width: 100%;
+        max-height:50%;
+        align-content: center; /* Keeps the aspect ratio */
+        
+    }
+    .d-grid gap-2 {
+        color: red;
+    }
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Table container styling */
+.table-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 20px;
+    }
+
+    tbody td {
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    tbody td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+
+
+
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color: aqua;">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="firstpage.html"><span style="color:orange;font-style: bold;">Creativity <span style="color: red;">Icon</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="firstpage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Machine List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newPage.html">Videos/Article</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CPI
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <img src="img/logo.jpg" class="rounded mx-auto d-block" id="logo"  alt="..." style="height: 50px; width: 50px; position: absolute; top: 0; right:0;"></li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+   
+   <!-- Responsive Video -->
+   <video class="responsive-video"  controls>
+    <source src="video/fivepage.mp4" type="video/mp4">
+  
+</video>
+<h2 class="sub-tittle" >Machine Details || </h2>
+<h3>Integrated Circuit Making SMD Machine SMT550 Electronic Components Pick and Place Machine with 4heads and 50feeders</h3>
+<p>SMT550 হল একটি সারফেস মাউন্ট টেকনোলজি (SMT) মেশিন যা প্রিন্টেড সার্কিট বোর্ডে (PCBs) ইলেকট্রনিক উপাদানগুলির দক্ষ এবং সুনির্দিষ্ট স্থাপনের জন্য ডিজাইন করা হয়েছে। এটি সাধারণত স্মার্টফোন এবং কম্পিউটার থেকে স্বয়ংচালিত ইলেকট্রনিক্স এবং চিকিৎসা সরঞ্জাম বিভিন্ন ইলেকট্রনিক ডিভাইস তৈরিতে ব্যবহৃত হয়।</p>
+<body>
+  
+    <div class="table-container">
+        <h2>Machine Specifications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Attribute</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Key Attributes</td>
+                    <td>Weight (KG)</td>
+                    <td>250</td>
+                </tr>
+                <tr>
+                    <td>Showroom Location</td>
+                    <td>None</td>
+                </tr>
+                <tr>
+                    <td>Video Outgoing Inspection</td>
+                    <td>Provided</td>
+                </tr>
+                <tr>
+                    <td rowspan="9">Other Attributes</td>
+                    <td>Machinery Test Report</td>
+                    <td>Provided</td>
+                </tr>
+                <tr>
+                    <td>Marketing Type</td>
+                    <td>New Product 2020</td>
+                </tr>
+                <tr>
+                    <td>Warranty of Core Components</td>
+                    <td>1 Year</td>
+                </tr>
+                <tr>
+                    <td>Core Components</td>
+                    <td>Motor</td>
+                </tr>
+                <tr>
+                    <td>Place of Origin</td>
+                    <td>Zhejiang, China</td>
+                </tr>
+                <tr>
+                    <td>Warranty</td>
+                    <td>1 Year</td>
+                </tr>
+                <tr>
+                    <td>Condition</td>
+                    <td>New</td>
+                </tr>
+                <tr>
+                    <td>Brand Name</td>
+                    <td>YX</td>
+                </tr>
+                <tr>
+                    <td>Model Number</td>
+                    <td>SMT550</td>
+                </tr>
+                <tr>
+                    <td>Guide Rail</td>
+                    <td>TBI Linear Guide Rail</td>
+                </tr>
+                <tr>
+                    <td>Number of Feeders</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>MAX PCB Area</td>
+                    <td>400 * 200 mm</td>
+                </tr>
+                <tr>
+                    <td>Driving Mode</td>
+                    <td>TBI Ball Screw</td>
+                </tr>
+                <tr>
+                    <td>Motor</td>
+                    <td>Servo Motor</td>
+                </tr>
+                <tr>
+                    <td>Software</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td>Stock</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>After Warranty Service</td>
+                    <td>Video Technical Support</td>
+                </tr>
+                <tr>
+                    <td>After-Sales Service Provided</td>
+                    <td>Video Technical Support</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <img src="img/logo.jpg" class="rounded mx-auto d-block" id="logo"  alt="..." style="height: 220px; width: 250px;">
+    <div class="d-grid gap-2" >
+    <button onclick="window.history.back()" class="btn btn-primary" type="button" id="bt">Go Back</button></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch the video</title>
+    <link rel="stylesheet" href="css/newpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+    .responsive-video {
+        width: 100%;
+        max-height:50%;
+        align-content: center; /* Keeps the aspect ratio */
+        
+    }
+    .d-grid gap-2 {
+        color: red;
+    }
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Table container */
+.table-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 20px;
+    }
+
+    tbody td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    tbody td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color: aqua;">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand" href="firstpage.html"><span style="color:orange;font-style: bold;">Creativity <span style="color: red;">Icon</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="firstpage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Machine List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newPage.html">Videos/Article</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CPI
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <img src="img/logo.jpg" class="rounded mx-auto d-block" id="logo"  alt="..." style="height: 50px; width: 50px; position: absolute; top: 0; right:0;"></li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+   
+   <!-- Responsive Video -->
+   <video class="responsive-video"  controls>
+ 
+    <source src="video/secondpage.mp4" type="video/mp4">
+  
+</video>
+<h2 class="sub-tittle">Machine Details || </h2>
+<h3>VMC400 5 Axis Sided Metal Milling Ultrasonic 5-Axis Machine Tool Equipment CNC Vertical Machining Center</h3>
+<p>VMC400 5-অ্যাক্সিস মেশিন একটি অত্যাধুনিক ধরনের সিএনসি মেশিন। এটি ধাতু কাটার কাজে ব্যবহৃত হয়। এর ৫টি অ্যাক্সিস থাকায় এটি জটিল আকৃতির অংশও তৈরি করতে পারে। অতিস্বনক প্রযুক্তি ব্যবহার করে এটি অত্যন্ত নিখুঁত কাজ করে। এটি উচ্চ গতিতে কাজ করে এবং উৎপাদন খরচ কমায়।</p>
+<body>
+  
+    <div class="table-container">
+        <h2>Machining Center Attributes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Attribute</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Key Attributes -->
+                <tr>
+                    <td rowspan="2">Key Attributes</td>
+                    <td>Table Size (mm)</td>
+                    <td>D455*260</td>
+                </tr>
+                <tr>
+                    <td>Table Travel (X) (mm)</td>
+                    <td>420</td>
+                </tr>
+
+                <!-- Industry-Specific Attributes -->
+                <tr>
+                    <td rowspan="4">Industry-specific Attributes</td>
+                    <td>Table Travel (Y) (mm)</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>Condition</td>
+                    <td>New</td>
+                </tr>
+                <tr>
+                    <td>Spindle Taper</td>
+                    <td>HSK-A63</td>
+                </tr>
+                <tr>
+                    <td>No. of Spindles</td>
+                    <td>5</td>
+                </tr>
+
+                <!-- Other Attributes -->
+                <tr>
+                    <td rowspan="14">Other Attributes</td>
+                    <td>Type</td>
+                    <td>VERTICAL</td>
+                </tr>
+                <tr>
+                    <td>Weight (T)</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Table Travel (Z) (mm)</td>
+                    <td>380</td>
+                </tr>
+                <tr>
+                    <td>Positioning Accuracy (mm)</td>
+                    <td>±0.007</td>
+                </tr>
+                <tr>
+                    <td>Repeatability (X/Y/Z) (mm)</td>
+                    <td>±0.004</td>
+                </tr>
+                <tr>
+                    <td>Range of Spindle Speed (r.p.m)</td>
+                    <td>0 - 16000 r.p.m</td>
+                </tr>
+                <tr>
+                    <td>Max. Table Load (kg)</td>
+                    <td>200 kg</td>
+                </tr>
+                <tr>
+                    <td>Min. Time of Tool Change (s)</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Tool Magazine Capacity</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Warranty</td>
+                    <td>1 Year</td>
+                </tr>
+                <tr>
+                    <td>Place of Origin</td>
+                    <td>Guangdong, China</td>
+                </tr>
+                <tr>
+                    <td>Marketing Type</td>
+                    <td>Ordinary Product</td>
+                </tr>
+                <tr>
+                    <td>Machinery Test Report</td>
+                    <td>Provided</td>
+                </tr>
+                <tr>
+                    <td>Video outgoing-inspection</td>
+                    <td>Provided</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+  
+    <img src="img/logo.jpg" class="rounded mx-auto d-block" id="logo"  alt="..." style="height: 220px; width: 250px;">
+    <div class="d-grid gap-2" >
+    <button onclick="window.history.back()" class="btn btn-primary" type="button" id="bt">Go Back</button></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+
+</body>
+</html>
